@@ -1,0 +1,39 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.alankalepdev.com/sitemap.xml.php
+
+# RSS Feed
+# RSS: https://www.alankalepdev.com/feed.xml.php
+
+# Optimización para motores de búsqueda principales
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Bloquear archivos innecesarios
+Disallow: /vendor/
+Disallow: /include/
+Disallow: /controllers/
+Disallow: /models/
+Disallow: *.php$
+Allow: /sitemap.xml.php
+
+# Permitir recursos importantes
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Información adicional
+# Contacto: https://www.alankalepdev.com/contact
+# Página principal: https://www.alankalepdev.com

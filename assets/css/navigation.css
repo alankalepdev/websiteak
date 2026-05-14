@@ -1,0 +1,171 @@
+/* Estilos para el sistema de navegación híbrida */
+
+/* Skip to main content para accesibilidad */
+.skip-to-main {
+    position: absolute;
+    top: -40px;
+    left: 6px;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    z-index: 1000;
+    border-radius: 4px;
+    transition: top 0.3s;
+}
+
+.skip-to-main:focus {
+    top: 6px;
+}
+
+/* Smooth scroll para navegadores que no lo soporten nativamente */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para enlaces activos */
+.nav-link.active,
+.menu-link.active {
+    color: var(--primary-color, #007bff) !important;
+    font-weight: 600;
+}
+
+/* Indicador de carga para transiciones de página */
+.page-transition {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.page-transition.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.page-transition .spinner {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid var(--primary-color, #007bff);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Ajustes para scroll con offset de header fijo */
+@media (min-width: 768px) {
+    .section-offset {
+        scroll-margin-top: 80px; /* Ajustar según la altura de tu header */
+    }
+}
+
+@media (max-width: 767px) {
+    .section-offset {
+        scroll-margin-top: 60px; /* Ajustar para móvil */
+    }
+}
+
+/* Breadcrumb responsive */
+.breadcrumb-container {
+    margin: 20px 0;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "›";
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.breadcrumb-item.active {
+    color: var(--primary-color, #007bff);
+}
+
+/* Estilos para enlaces de navegación */
+.smart-link {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.smart-link:hover {
+    transform: translateY(-2px);
+}
+
+.smart-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--primary-color, #007bff);
+    transition: width 0.3s ease;
+}
+
+.smart-link:hover::after,
+.smart-link.active::after {
+    width: 100%;
+}
+
+/* Mejoras para accesibilidad */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+    
+    .smart-link,
+    .page-transition {
+        transition: none;
+    }
+    
+    .spinner {
+        animation: none;
+    }
+}
+
+/* Focus visible para navegación por teclado */
+.smart-link:focus-visible {
+    outline: 2px solid var(--primary-color, #007bff);
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+/* Loading state para enlaces */
+.smart-link.loading {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.smart-link.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -20px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--primary-color, #007bff);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    transform: translateY(-50%);
+}

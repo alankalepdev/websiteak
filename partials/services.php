@@ -26,7 +26,7 @@
                     <div class="service-content">
                         <div class="service-content-title">
                             <h2>Desarrollo Software</h2>
-                            <a href="#"><img src="assets/images/arrow.svg" alt="Desarrollo de software, aplicaciones web, plataformas web"></a>
+                            <a href="?route=service-software"><img src="assets/images/arrow.svg" alt="Desarrollo de software, aplicaciones web, plataformas web"></a>
                         </div>
                         <p>Mejora la productividad y la rentabilidad de tu negocio, automatiza procesos.</p>
                     </div>

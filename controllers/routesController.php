@@ -15,6 +15,8 @@ class RoutesController
                 $_GET["route"] == "aivideos" ||
                 $_GET["route"] == "aimodels" ||
                 $_GET["route"] == "ai" ||
+                $_GET["route"] == "services-ai" ||
+                $_GET["route"] == "service-software" ||
                 $_GET["route"] == "contact"
             ) {
                 $modulo = 'views/'.$_GET["route"];

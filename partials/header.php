@@ -1,25 +1,25 @@
 <!-- Header Start -->
-<header class="main-header">
+<header class="main-header" role="banner">
     <div class="header-sticky">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" role="navigation" aria-label="Menú principal">
             <div class="container">
                 <!-- Logo Start -->
-                <a class="navbar-brand" href="./">
-                    <img src="assets/images/logodeveloper-chico.png" width="45" height="48" alt="Logo">
+                <a class="navbar-brand" href="./" aria-label="AlanKalepDev - Inicio">
+                    <img src="assets/images/logodeveloper-chico.png" width="45" height="48" alt="AlanKalepDev - Desarrollo de Software y Aplicaciones Web">
                 </a>
                 <!-- Logo End -->
 
                 <!-- Main Menu Start -->
                 <div class="collapse navbar-collapse main-menu">
                     <div class="nav-menu-wrapper">
-                        <ul class="navbar-nav mr-auto" id="menu">
-                            <li class="nav-item"><a class="nav-link" href="#home">Inicio</a>
+                        <ul class="navbar-nav mr-auto" id="menu" role="menubar">
+                            <li class="nav-item" role="none"><a class="nav-link" href="#home" role="menuitem">Inicio</a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="#about">Sobre mí</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
-                            <li class="nav-item"><a class="nav-link" href="sededigital">sededigital</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="#about" role="menuitem">Sobre mí</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="#services" role="menuitem">Servicios</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="#portfolio" role="menuitem">Portafolio</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="sededigital" role="menuitem">SedeDigital</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="#contact" role="menuitem">Contacto</a></li>
                             <!-- <li class="nav-item"><a class="nav-link" href="">blog</a></li> -->
                             <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Nuevo</a>
                                 <ul>
