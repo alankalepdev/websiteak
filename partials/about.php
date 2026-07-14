@@ -45,32 +45,35 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Sobre mí</h3>
-                            <h2 class="text-anime-style-3">Alan Kalep - Ingeniero de Software</h2>
+                            <h2 class="text-anime-style-3">Alan Gutiérrez — Ingeniero de Software Full Stack</h2>
                         </div>
                         <!-- Section Title End -->
                         <p class="wow fadeInUp" data-wow-delay="0.25s">
-                            Soy un <strong>Ingeniero de Software</strong> con más de <strong>10 años de experiencia en desarrollo web</strong> 
-                            y administración de <strong>servidores Linux</strong>. Especialista en plataformas para la industria como 
-                            <em>logística, educación</em> y <strong>migraciones a tecnologías Open Source</strong>, ayudando a empresas a 
-                            reducir costos, aumentar la productividad y ganar independencia tecnológica.
+                            Soy <strong>Ingeniero en Sistemas Computacionales</strong> con más de <strong>10 años de experiencia</strong> 
+                            desarrollando aplicaciones web y administrando <strong>servidores Linux</strong>. 
+                            He trabajado en sectores de <em>logística, educación e instituciones académicas</em>, 
+                            entregando plataformas que han reducido tiempos de respuesta en más del <strong>40%</strong> 
+                            y acelerado despliegues de proyectos en un <strong>30%</strong>.
                         </p>
                         <p class="wow fadeIn">
-                            Con fuerte interés en la línea de comandos shell, la gestión eficiente de servidores y el desarrollo de 
-                            <strong>sistemas distribuidos</strong>. Me motiva explorar el potencial de la <strong>inteligencia artificial</strong>, 
-                            aplicar patrones y principios de diseño para construir software robusto y escalable.
+                            Especialista en <strong>LEMP Stack, TALL Stack, Laravel, Python y FastAPI</strong>. 
+                            Desarrollo asistentes con <strong>IA integrada a ERPs y plataformas logísticas</strong>, 
+                            y configuro infraestructura on-premise con <strong>hardening de servidores Linux</strong> — 
+                            para que tu empresa tenga control total sin depender de la nube.
                         </p>
                         <p class="wow fadeInUp" data-wow-delay="0.5s">
-                            Fuera del ámbito tecnológico, disfruto del <em>ciclismo de montaña</em>, combinando mi pasión por la aventura 
-                            con el desafío de superar nuevos terrenos.
+                            He liderado proyectos como sistemas CRM logísticos completos, plataformas SaaS multi-tenant, 
+                            cursos en línea con pasarelas de pago y migraciones de infraestructura sin tiempo de inactividad. 
+                            Fuera del código, me encontrarás en el <em>ciclismo de montaña</em>.
                         </p>
 
                         <ul class="wow fadeInUp" data-wow-delay="0.75s" role="list" aria-label="Características del servicio">
-                            <li>Aplicaciones escalables y robustas</li>
-                            <li>Impacto inmediato en tu negocio</li>
-                            <li>Experiencia y conocimientos especializados</li>
-                            <li>Diseño profesional y moderno</li>
-                            <li>Flexibilidad total en desarrollo</li>
-                            <li>Soporte proactivo</li>
+                            <li>+40% de mejora en tiempos de respuesta en proyectos reales</li>
+                            <li>Plataformas logísticas, SaaS y ERPs con IA integrada</li>
+                            <li>Infraestructura Linux: del servidor a producción sin intermediarios</li>
+                            <li>+6 sistemas internos desarrollados y mantenidos en El Colegio de San Luis</li>
+                            <li>Hardening de servidores y cultura DevOps (Docker, CI/CD, Git Actions)</li>
+                            <li>Soporte real y comunicación directa en cada proyecto</li>
                         </ul>
                     </div>
                     <!-- About Us Content End -->

@@ -1,7 +1,7 @@
 <?php
 
 require '../vendor/autoload.php';
-require "../include/constants.php";
+require "/var/www/akprojs/config/constants.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -9,15 +9,19 @@ use PHPMailer\PHPMailer\Exception;
 
 $errorMSG = "";
 
+// CAPTCHA — validar primero antes de procesar
+if (empty($_POST['g-recaptcha-response'])) {
+	echo "Valide el captcha.";
+	exit;
+}
+
 // FNAME
 if (empty($_POST["fname"])) {
 	$errorMSG = "First Name is required. ";
 } else {
 	$fname = $_POST["fname"];
 }
-if (!isset($_POST['g-recaptcha-response'])) {
-	$errorMSG = "Valide el captcha. ";
-}
+
 // LNAME
 if (empty($_POST["lname"])) {
 	$errorMSG = "Last Name is required. ";
@@ -39,9 +43,6 @@ if (empty($_POST["email"])) {
 	$email = $_POST["email"];
 }
 
-
-
-
 // MESSAGE
 if (empty($_POST["message"])) {
 	$errorMSG .= "Message is required. ";
@@ -53,19 +54,22 @@ if (empty($_POST["message"])) {
 
 
 // prepare email body text
-$Body = "";
-$Body .= "Name: ";
-$Body .= $fname . " " . $lname;
-$Body .= "\n";
-$Body .= "Email: ";
-$Body .= $email;
-$Body .= "\n";
-$Body .= "Phone: ";
-$Body .= $phone;
-$Body .= "\n";
-$Body .= "Message: ";
-$Body .= $message;
-$Body .= "\n";
+$Body = "
+<html>
+<body style='font-family: Arial, sans-serif; color: #333; max-width: 600px;'>
+    <h2 style='color: #1e3a5f; border-bottom: 2px solid #64b5f6; padding-bottom: 8px;'>
+        Nuevo mensaje desde alankalepdev.com
+    </h2>
+    <table style='width:100%; border-collapse: collapse;'>
+        <tr><td style='padding: 8px; font-weight:bold; width:120px;'>Nombre:</td><td style='padding: 8px;'>{$fname} {$lname}</td></tr>
+        <tr style='background:#f5f5f5;'><td style='padding: 8px; font-weight:bold;'>Email:</td><td style='padding: 8px;'><a href='mailto:{$email}'>{$email}</a></td></tr>
+        <tr><td style='padding: 8px; font-weight:bold;'>Teléfono:</td><td style='padding: 8px;'>{$phone}</td></tr>
+        <tr style='background:#f5f5f5;'><td style='padding: 8px; font-weight:bold; vertical-align:top;'>Mensaje:</td><td style='padding: 8px;'>" . nl2br(htmlspecialchars($message)) . "</td></tr>
+    </table>
+    <p style='margin-top: 20px; font-size: 12px; color: #999;'>Enviado desde el formulario de contacto de alankalepdev.com</p>
+</body>
+</html>";
+
 $mail = new PHPMailer(true);
 try {
 	// $mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -81,11 +85,11 @@ try {
 	$mail->Port = 465;
 
 
-	$mail->setFrom(USER_EMAIL, 'Coventant Software Web');
-	$mail->addAddress(USER_EMAIL_SEND, 'Covenant Software');
+	$mail->setFrom(USER_EMAIL, 'AlanKalepDev');
+	$mail->addAddress(USER_EMAIL_SEND, 'Alan Gutiérrez');
 
 	$mail->isHTML(true);
-	$mail->Subject = 'Mensaje del sitio web Covenant Software';
+	$mail->Subject = 'Nuevo mensaje desde alankalepdev.com';
 	$mail->Body = $Body;
 
 	$mail->SMTPOptions = array(

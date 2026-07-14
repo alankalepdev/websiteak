@@ -8,18 +8,18 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp" aria-label="Subtítulo">Qué podemos hacer por ti</h3>
-                            <h1 class="text-anime-style-3" aria-label="Título principal">Aplicaciones web, SaaS, ERP, BOTs e IA para <span>tu negocio</span></h1>
+                            <h3 class="wow fadeInUp" aria-label="Subtítulo">Ingeniero de Software & Full Stack Developer</h3>
+                            <h1 class="text-anime-style-3" aria-label="Título principal">Software a medida, Asistentes IA y servidores propios para <span>tu empresa</span></h1>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Body Start -->
                         <div class="hero-body">
                             <p class="wow fadeInUp" data-wow-delay="0.5s">
-                                Especialista en desarrollo de software con más de 10 años de experiencia. 
-                                Creamos soluciones tecnológicas que impulsan el crecimiento de tu empresa: 
-                                aplicaciones web escalables, sistemas ERP personalizados, bots inteligentes y 
-                                plataformas SaaS que optimizan tus procesos de negocio.
+                                +10 años construyendo software que realmente funciona en producción. 
+                                He reducido tiempos de respuesta en más del <strong>40%</strong>, liderado migraciones de infraestructura 
+                                complejas y desarrollado plataformas logísticas, SaaS y asistentes con IA para empresas reales. 
+                                Trabajo con Laravel, Python, Vue.js, Docker y Linux — de la idea al servidor, sin intermediarios.
                             </p>
                         </div>
                         <!-- Hero Body End -->

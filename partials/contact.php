@@ -14,7 +14,7 @@
 
                     <!-- Contact Details Body Start -->
                     <div class="contact-detail-body">
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Desarrollamos tus ideas en grandes proyectos.</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Cuéntame tu idea o el reto que tiene tu empresa — en menos de 24 horas te respondo con una propuesta clara y sin compromisos.</p>
                         <h3 class="wow fadeInUp" data-wow-delay="0.5s">Siguenos:</h3>
                         <ul class="wow fadeInUp" data-wow-delay="0.75s">
                             <li><a target="_blank" href="https://www.facebook.com/alankalepdev"><i class="fa-brands fa-facebook-f"></i></a></li>
@@ -55,7 +55,7 @@
                                 </div>
 
                                 <div class="form-group col-md-12 mb-4">
-                                    <textarea name="msg" class="form-control" id="msg" rows="7" placeholder="message" ></textarea>
+                                    <textarea name="msg" class="form-control" id="msg" rows="7" placeholder="Cuéntame sobre tu proyecto o lo que necesitas..." ></textarea>
                                     <!-- <div class="help-block with-errors"></div> -->
                                 </div>
                                 <div class="form-group col-md-12 mb-4">
@@ -65,7 +65,7 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <button id="submit" type="submit" class="btn-default">send a message</button>
+                                    <button id="submit" type="submit" class="btn-default">Enviar mensaje</button>
                                     <!-- <div id="msgSubmit" class="h3 text-left hidden"></div> -->
                                 </div>
                             </div>

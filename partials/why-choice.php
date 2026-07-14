@@ -18,8 +18,8 @@
                     <div class="icon-box">
                         <img src="assets/images/icon-whyus-1.svg" alt="">
                     </div>
-                    <h3>Innovación</h3>
-                    <p>En constante actualización para desarollar tus ideas en mejores tiempos.</p>
+                    <h3>Innovación constante</h3>
+                    <p>Trabajo con las tecnologías más actuales — Laravel, Python, FastAPI, Docker, LLMs — y me mantengo en formación continua en IA y DevOps para entregarte siempre lo mejor.</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -30,8 +30,8 @@
                     <div class="icon-box">
                         <img src="assets/images/icon-whyus-2.svg" alt="">
                     </div>
-                    <h3>Calidad-Enfoque</h3>
-                    <p>Cada proyecto se entrega con una excelte calidad.</p>
+                    <h3>Calidad y enfoque</h3>
+                    <p>Con +10 años en producción real, cada proyecto se entrega con código limpio, arquitectura sólida y resultados medibles: tiempos de respuesta reducidos hasta un 40% y despliegues 30% más rápidos.</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -43,7 +43,7 @@
                         <img src="assets/images/icon-whyus-3.svg" alt="">
                     </div>
                     <h3>Relación Calidad-Precio</h3>
-                    <p>Se desarollada con el plus en cada area, diseño, operación, funcionamiento.</p>
+                    <p>Trato directo con el desarrollador, sin agencias ni intermediarios. Obtienes la experiencia de un Sr. Full Stack con infraestructura propia incluida, a una fracción del costo de una agencia.</p>
                 </div>
                 <!-- Why Choose Item End -->
             </div>
@@ -73,7 +73,7 @@
                         <div class="col-lg-6">
                             <!-- Explore Item Content Start -->
                             <div class="explore-item-content wow fadeInUp" data-wow-delay="0.25s">
-                                <p>Tienes un proyecto en mente, contactame con gusto puedo asesorarte!.</p>
+                                <p>¿Tienes un proyecto en mente? Cuéntame tu idea y con gusto te asesoro sin costo ni compromiso.</p>
                             </div>
                             <!-- Explore Item Content End -->
                         </div>

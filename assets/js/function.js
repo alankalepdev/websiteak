@@ -245,12 +245,13 @@
 		var email = $("#email").val();
 		var phone = $("#phone").val();
 		var message = $("#msg").val();
+		var recaptcha = grecaptcha.getResponse();
 
 		waitMeShow('#body');
 		$.ajax({
 			type: "POST",
-			url: "../../controllers/form-process.php",
-			data: "fname=" + fname + "&lname=" + lname + "&email=" + email + "&phone=" + phone + "&message=" + message,
+			url: "/controllers/form-process.php",
+			data: "fname=" + fname + "&lname=" + lname + "&email=" + email + "&phone=" + phone + "&message=" + message + "&g-recaptcha-response=" + encodeURIComponent(recaptcha),
 			success: function (text) {
 				if (text == "success") {
 					$('#contactform').trigger('reset');

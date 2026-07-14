@@ -29,7 +29,7 @@
                                     <li class="nav-item"><a class="nav-link" href="faqs.html">IA</a></li>
                                 </ul>
                             </li> -->
-                            <li class="nav-item highlighted-menu"><a class="nav-link" href="contact-us.html">free consultation</a></li>
+                            <li class="nav-item highlighted-menu"><a class="nav-link" href="#contact">Consultoría gratis</a></li>
                         </ul>
                     </div>
                     <!-- Let’s Start Button Start -->

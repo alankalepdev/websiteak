@@ -1,2 +1,10 @@
+# Archivos de configuración sensibles (movidos fuera del webroot)
+# constants.php fue movido a /var/www/akprojs/config/constants.php
 include/constants.php
 include/db.php
+
+# Variables de entorno
+.env
+.env.local
+.env.production
+.env2
