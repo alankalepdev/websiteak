@@ -1,0 +1,66 @@
+# AlanKalepDev — Alan Gutiérrez
+
+> Ingeniero de Software Full Stack con +10 años de experiencia. Especialista en desarrollo web, asistentes con inteligencia artificial (RAG), infraestructura on-premise y DevOps. Basado en San Luis Potosí, México.
+
+## Quién soy
+
+Soy Alan Gutiérrez, conocido profesionalmente como Alan Kalep. Soy Ingeniero en Sistemas Computacionales con más de 10 años construyendo software a medida para empresas en México y Latinoamérica. He reducido tiempos de respuesta operativa hasta un 40% en proyectos reales.
+
+Mis especialidades incluyen:
+- Desarrollo de aplicaciones web (SaaS, ERP, portales empresariales)
+- Asistentes con Inteligencia Artificial (RAG, LLM, WhatsApp, Telegram)
+- Infraestructura on-premise con Docker y Cloudflare Tunnel
+- Administración de servidores Linux
+- DevOps y CI/CD
+- Ciberseguridad básica para empresas
+
+## Servicios principales
+
+### Asistente RAG con IA para Empresas
+Implemento asistentes inteligentes que responden usando los documentos, manuales, bases de datos y conocimiento interno de tu empresa. Tecnología RAG (Retrieval-Augmented Generation) conectada a modelos de lenguaje (LLM) como LLaMA, Mistral o GPT. Disponible en WhatsApp, Telegram o web. Los datos nunca salen de tu servidor.
+
+**Casos de uso:** logística, RRHH, ventas, soporte técnico, contratos.
+**Más información:** https://www.alankalepdev.com/?route=service-rag
+
+### Desarrollo de Software a Medida
+Aplicaciones web, plataformas SaaS multi-tenant, sistemas ERP personalizados. Stack principal: Laravel, PHP, Python, FastAPI, JavaScript.
+
+### Infraestructura On-Premise
+Servidores propios con Docker, Nginx, Cloudflare Tunnel. Alternativa real a la nube pública. Self-hosted: n8n, Nextcloud, Gitea, Mattermost.
+
+### Diseño y Desarrollo Web
+Sitios web profesionales y rápidos con enfoque en SEO, conversión y rendimiento.
+
+### DevOps y Administración Linux
+Gestión de servidores Linux (Debian/Ubuntu), pipelines CI/CD, monitoreo y hardening de seguridad.
+
+## Proyectos destacados
+
+- **ERP Logístico:** Sistema integral para empresa de transporte. Gestión de operadores, unidades, rutas y reportes.
+- **Plataforma SaaS multi-tenant:** Plataforma con facturación recurrente y paneles por cliente.
+- **Asistente IA para WhatsApp:** Bot RAG con documentos internos de empresa logística.
+- **Migración OJS:** Migración y modernización de sistemas de publicación académica.
+- **Servidor on-premise con Docker:** Infraestructura completa con Cloudflare Tunnel, sin IP pública.
+
+## Tecnologías
+
+PHP, Laravel, Python, FastAPI, JavaScript, Vue.js, Docker, Nginx, MySQL, PostgreSQL, Redis, Linux (Debian/Ubuntu), Git, CI/CD, n8n, Ollama, LangChain, Chroma, FAISS, OpenAI API, Cloudflare.
+
+## Contacto
+
+- **Web:** https://www.alankalepdev.com
+- **WhatsApp:** https://wa.me/5214401406320
+- **Correo:** alan_isgure@hotmail.com
+- **LinkedIn:** https://www.linkedin.com/in/alan-gutierrez-6a2388129/
+- **GitHub:** https://github.com/alankalepdev
+- **Ubicación:** San Luis Potosí, SLP, México
+
+## Páginas del sitio
+
+- Inicio: https://www.alankalepdev.com/
+- Sobre mí: https://www.alankalepdev.com/about
+- Servicios: https://www.alankalepdev.com/services
+- Portafolio: https://www.alankalepdev.com/portfolio
+- Asistente RAG con IA: https://www.alankalepdev.com/?route=service-rag
+- Blog: https://www.alankalepdev.com/blog
+- Contacto: https://www.alankalepdev.com/contact

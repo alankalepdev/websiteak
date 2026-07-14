@@ -32,6 +32,16 @@ $pages = [
         'priority' => '0.6',
         'changefreq' => 'weekly',
         'lastmod' => date('Y-m-d')
+    ],
+    '?route=service-rag' => [
+        'priority' => '0.9',
+        'changefreq' => 'monthly',
+        'lastmod' => '2025-06-01'
+    ],
+    '?route=service-software' => [
+        'priority' => '0.8',
+        'changefreq' => 'monthly',
+        'lastmod' => '2025-06-01'
     ]
 ];
 

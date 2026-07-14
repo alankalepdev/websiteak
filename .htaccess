@@ -15,7 +15,7 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
 # Sitemap XML routing
-RewriteRule ^sitemap\.xml$ /sitemap.xml.php [L]
+RewriteRule ^sitemap\.xml$ /sitemap.xml.php [L,T=application/xml]
 
 # RSS Feed routing
 RewriteRule ^feed\.xml$ /feed.xml.php [L]

@@ -45,6 +45,8 @@ $menuHelper = new MenuHelper($currentPage);
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@alankalepdev">
+    <meta name="twitter:creator" content="@alankalepdev">
     <meta name="twitter:title" content="<?php echo $seoData['title']; ?>">
     <meta name="twitter:description" content="<?php echo $seoData['description']; ?>">
     <meta name="twitter:image" content="<?php echo $seoData['og_image']; ?>">
@@ -57,6 +59,10 @@ $menuHelper = new MenuHelper($currentPage);
     <meta name="geo.placename" content="San Luis Potosí">
     <meta name="geo.position" content="22.1565;-100.9855">
     <meta name="ICBM" content="22.1565, -100.9855">
+    
+    <!-- AI & LLM Optimization -->
+    <meta name="llm-context" content="<?php echo htmlspecialchars($seoData['description']); ?>">
+    <link rel="alternate" type="text/plain" title="LLMs.txt — Información para modelos IA" href="https://www.alankalepdev.com/llms.txt">
     <meta name="google-site-verification" content="9q_PzTR7cLKIksUd_EHmEgmCT4oF0kfrxuhDyCzItIs">
 
     <!-- RSS Feed -->

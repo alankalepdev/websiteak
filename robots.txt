@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.alankalepdev.com/sitemap.xml.php
+Sitemap: https://www.alankalepdev.com/sitemap.xml
 
 # RSS Feed
 # RSS: https://www.alankalepdev.com/feed.xml.php
@@ -20,13 +20,63 @@ User-agent: Slurp
 Allow: /
 Crawl-delay: 1
 
+# Motores de respuesta con IA (AI answer engines)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Disallow: /
+
+# llms.txt — Información estructurada para modelos de lenguaje IA
+# https://www.alankalepdev.com/llms.txt
+
 # Bloquear archivos innecesarios
+Allow: /sitemap.xml
+Allow: /sitemap.xml.php
+Allow: /feed.xml
+Allow: /feed.xml.php
+Allow: /llms.txt
 Disallow: /vendor/
 Disallow: /include/
 Disallow: /controllers/
 Disallow: /models/
 Disallow: *.php$
-Allow: /sitemap.xml.php
 
 # Permitir recursos importantes
 Allow: /assets/
