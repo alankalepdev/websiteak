@@ -12,9 +12,9 @@
 
             <div class="col-lg-5 col-md-5">
                 <!-- Section Btn Start -->
-                <!-- <div class="section-btn">
-                    <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
-                </div> -->
+                <div class="section-btn">
+                    <a href="services" class="btn-default wow fadeInUp" data-wow-delay="0.25s">Ver todos los servicios</a>
+                </div>
                 <!-- Section Btn End -->
             </div>
         </div>

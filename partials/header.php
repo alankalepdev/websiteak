@@ -19,8 +19,8 @@
                             <li class="nav-item" role="none"><a class="nav-link" href="#services" role="menuitem">Servicios</a></li>
                             <li class="nav-item" role="none"><a class="nav-link" href="#portfolio" role="menuitem">Portafolio</a></li>
                             <li class="nav-item" role="none"><a class="nav-link" href="sededigital" role="menuitem">SedeDigital</a></li>
+                            <li class="nav-item" role="none"><a class="nav-link" href="blog" role="menuitem">Blog</a></li>
                             <li class="nav-item" role="none"><a class="nav-link" href="#contact" role="menuitem">Contacto</a></li>
-                            <!-- <li class="nav-item"><a class="nav-link" href="">blog</a></li> -->
                             <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Nuevo</a>
                                 <ul>
                                     <li class="nav-item"><a class="nav-link" href="service-single.html">Sede digitla</a></li>

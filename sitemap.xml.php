@@ -8,24 +8,9 @@ $pages = [
         'changefreq' => 'weekly',
         'lastmod' => date('Y-m-d')
     ],
-    'about' => [
-        'priority' => '0.8',
-        'changefreq' => 'monthly',
-        'lastmod' => date('Y-m-d')
-    ],
     'services' => [
         'priority' => '0.9',
         'changefreq' => 'weekly',
-        'lastmod' => date('Y-m-d')
-    ],
-    'portfolio' => [
-        'priority' => '0.8',
-        'changefreq' => 'weekly',
-        'lastmod' => date('Y-m-d')
-    ],
-    'contact' => [
-        'priority' => '0.7',
-        'changefreq' => 'monthly',
         'lastmod' => date('Y-m-d')
     ],
     'blog' => [

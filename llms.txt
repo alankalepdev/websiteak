@@ -57,10 +57,8 @@ PHP, Laravel, Python, FastAPI, JavaScript, Vue.js, Docker, Nginx, MySQL, Postgre
 
 ## Páginas del sitio
 
-- Inicio: https://www.alankalepdev.com/
-- Sobre mí: https://www.alankalepdev.com/about
+- Inicio (incluye Sobre mí, Portafolio y Contacto): https://www.alankalepdev.com/
 - Servicios: https://www.alankalepdev.com/services
-- Portafolio: https://www.alankalepdev.com/portfolio
 - Asistente RAG con IA: https://www.alankalepdev.com/?route=service-rag
+- Desarrollo de Software a Medida: https://www.alankalepdev.com/?route=service-software
 - Blog: https://www.alankalepdev.com/blog
-- Contacto: https://www.alankalepdev.com/contact

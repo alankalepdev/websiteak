@@ -10,14 +10,6 @@ class SEOConfig {
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/og-home.png'
         ],
-        'about' => [
-            'title' => 'Sobre Alan Gutiérrez — Ingeniero de Software Full Stack con +10 años de experiencia',
-            'description' => 'Ingeniero en Sistemas Computacionales especializado en desarrollo web, administración Linux, asistentes con IA y DevOps. He reducido tiempos de respuesta un 40% en proyectos reales. San Luis Potosí.',
-            'keywords' => 'Alan Gutiérrez, Alan Kalep, ingeniero software, desarrollador full stack senior, Linux, Docker, Laravel, Python, FastAPI, Open Source, San Luis Potosí, experiencia desarrollo web',
-            'canonical' => 'https://www.alankalepdev.com/about',
-            'og_type' => 'profile',
-            'og_image' => 'https://www.alankalepdev.com/assets/images/page-about-3.jpeg'
-        ],
         'services' => [
             'title' => 'Servicios: Desarrollo Web, Asistentes IA, Infraestructura On-Premise | AlanKalepDev',
             'description' => 'Desarrollo de software a medida, aplicaciones SaaS, ERP, asistentes con IA para WhatsApp y Telegram, diseño web profesional, infraestructura on-premise con Docker y ciberseguridad. San Luis Potosí.',
@@ -26,22 +18,6 @@ class SEOConfig {
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/og-services.png'
         ],
-        'portfolio' => [
-            'title' => 'Portafolio — Proyectos Reales: ERP, SaaS, IA, Infraestructura | AlanKalepDev',
-            'description' => 'Proyectos reales: ERP logístico, plataforma SaaS multi-tenant, migración OJS, integración EDI 3PL, servidor on-premise con Docker y Cloudflare Tunnel, sitios web profesionales.',
-            'keywords' => 'portafolio desarrollo software, proyectos ERP, SaaS logístico, migración OJS, integración EDI, servidor Docker on-premise, Cloudflare Tunnel, sitios web San Luis Potosí',
-            'canonical' => 'https://www.alankalepdev.com/portfolio',
-            'og_type' => 'website',
-            'og_image' => 'https://www.alankalepdev.com/assets/images/og-portfolio.png'
-        ],
-        'contact' => [
-            'title' => 'Contacto — Asesoría Gratuita en Desarrollo de Software | AlanKalepDev',
-            'description' => 'Contáctame para proyectos de desarrollo web, asistentes con IA, infraestructura on-premise o cualquier solución tecnológica. Respuesta en menos de 24 horas. San Luis Potosí, México.',
-            'keywords' => 'contacto desarrollador software, asesoría gratuita, presupuesto aplicaciones web, asistente IA empresa, servidor on-premise San Luis Potosí, consultoría tecnológica',
-            'canonical' => 'https://www.alankalepdev.com/contact',
-            'og_type' => 'website',
-            'og_image' => 'https://www.alankalepdev.com/assets/images/og-contact.png'
-        ],
         'service-rag' => [
             'title' => 'Asistente RAG con IA para Empresas — Responde con tus Documentos | AlanKalepDev',
             'description' => 'Implementamos asistentes con IA que responden usando los documentos, manuales y datos reales de tu empresa. Disponible en WhatsApp, Telegram o web. Tus datos en tu servidor. San Luis Potosí.',
@@ -49,6 +25,14 @@ class SEOConfig {
             'canonical' => 'https://www.alankalepdev.com/?route=service-rag',
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/service-img-4-1.png'
+        ],
+        'service-software' => [
+            'title' => 'Desarrollo de Software a Medida — Aplicaciones Web, SaaS y ERP | AlanKalepDev',
+            'description' => 'Desarrollo aplicaciones web, plataformas SaaS multi-tenant y sistemas ERP personalizados con Laravel, Python y FastAPI. Software a medida para tu negocio en San Luis Potosí, México.',
+            'keywords' => 'desarrollo software a medida, aplicaciones web personalizadas, SaaS multi-tenant, sistemas ERP, Laravel, Python, FastAPI, software empresarial San Luis Potosí',
+            'canonical' => 'https://www.alankalepdev.com/?route=service-software',
+            'og_type' => 'website',
+            'og_image' => 'https://www.alankalepdev.com/assets/images/service-img-1-1.png'
         ],
         'blog' => [            'title' => 'Blog — Desarrollo Web, IA, DevOps y Open Source | AlanKalepDev',
             'description' => 'Artículos prácticos sobre desarrollo web, inteligencia artificial aplicada a empresas, DevOps, infraestructura Linux, Docker y tecnologías Open Source.',
@@ -162,7 +146,7 @@ class SEOConfig {
                     "@type" => "Offer",
                     "priceCurrency" => "MXN",
                     "availability" => "https://schema.org/InStock",
-                    "url" => "https://www.alankalepdev.com/contact"
+                    "url" => "https://www.alankalepdev.com/#contact"
                 ],
                 "hasOfferCatalog" => [
                     "@type" => "OfferCatalog",

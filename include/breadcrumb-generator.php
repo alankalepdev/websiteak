@@ -2,11 +2,8 @@
 class BreadcrumbGenerator {
     private $pages = [
         'home' => 'Inicio',
-        'about' => 'Sobre mí', 
         'services' => 'Servicios',
-        'portfolio' => 'Portafolio',
-        'blog' => 'Blog',
-        'contact' => 'Contacto'
+        'blog' => 'Blog'
     ];
 
     public function generateBreadcrumb($currentPage = 'home') {

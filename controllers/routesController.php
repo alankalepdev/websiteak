@@ -1,26 +1,32 @@
 <?php
 class RoutesController
 {
+    // Estas rutas no son páginas propias: son secciones ancla del home
+    private $sectionRedirects = ["about", "portfolio", "contact"];
+
     public function getRoute()
     {
         if (isset($_GET["route"])) {
+            $route = $_GET["route"];
+
+            if (in_array($route, $this->sectionRedirects, true)) {
+                header('Location: /#' . $route, true, 301);
+                exit;
+            }
 
             if (
-                $_GET["route"] == "home" ||
-                $_GET["route"] == "about" ||
-                $_GET["route"] == "portfolio" ||
-                $_GET["route"] == "services" ||
-                $_GET["route"] == "blog" ||
-                $_GET["route"] == "digitalsede" ||
-                $_GET["route"] == "aivideos" ||
-                $_GET["route"] == "aimodels" ||
-                $_GET["route"] == "ai" ||
-                $_GET["route"] == "services-ai" ||
-                $_GET["route"] == "service-software" ||
-                $_GET["route"] == "service-rag" ||
-                $_GET["route"] == "contact"
+                $route == "home" ||
+                $route == "services" ||
+                $route == "blog" ||
+                $route == "digitalsede" ||
+                $route == "aivideos" ||
+                $route == "aimodels" ||
+                $route == "ai" ||
+                $route == "services-ai" ||
+                $route == "service-software" ||
+                $route == "service-rag"
             ) {
-                $modulo = 'views/'.$_GET["route"];
+                $modulo = 'views/'.$route;
             } else {
 
                 $modulo =  "./include/error404.php";

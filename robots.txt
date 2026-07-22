@@ -85,5 +85,5 @@ Allow: /assets/js/
 Allow: /assets/images/
 
 # Información adicional
-# Contacto: https://www.alankalepdev.com/contact
+# Contacto: https://www.alankalepdev.com/#contact
 # Página principal: https://www.alankalepdev.com
