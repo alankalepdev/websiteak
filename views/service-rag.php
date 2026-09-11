@@ -8,7 +8,7 @@
                         <nav class="wow fadeInUp" data-wow-delay="0.25s">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Inicio</a></li>
-                                <li class="breadcrumb-item"><a href="/#services">Servicios</a></li>
+                                <li class="breadcrumb-item"><a href="/#services">Soluciones</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Asistente RAG con IA</li>
                             </ol>
                         </nav>

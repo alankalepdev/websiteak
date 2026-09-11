@@ -45,36 +45,51 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp">Sobre mí</h3>
-                            <h2 class="text-anime-style-3">Alan Gutiérrez — Ingeniero de Software Full Stack</h2>
+                            <h2 class="text-anime-style-3">Experiencia que se traduce en resultados</h2>
                         </div>
                         <!-- Section Title End -->
                         <p class="wow fadeInUp" data-wow-delay="0.25s">
-                            Soy <strong>Ingeniero en Sistemas Computacionales</strong> con más de <strong>10 años de experiencia</strong> 
-                            desarrollando aplicaciones web y administrando <strong>servidores Linux</strong>. 
-                            He trabajado en sectores de <em>logística, educación e instituciones académicas</em>, 
-                            entregando plataformas que han reducido tiempos de respuesta en más del <strong>40%</strong> 
-                            y acelerado despliegues de proyectos en un <strong>30%</strong>.
-                        </p>
-                        <p class="wow fadeIn">
-                            Especialista en <strong>LEMP Stack, TALL Stack, Laravel, Python y FastAPI</strong>. 
-                            Desarrollo asistentes con <strong>IA integrada a ERPs y plataformas logísticas</strong>, 
-                            y configuro infraestructura on-premise con <strong>hardening de servidores Linux</strong> — 
-                            para que tu empresa tenga control total sin depender de la nube.
-                        </p>
-                        <p class="wow fadeInUp" data-wow-delay="0.5s">
-                            He liderado proyectos como sistemas CRM logísticos completos, plataformas SaaS multi-tenant, 
-                            cursos en línea con pasarelas de pago y migraciones de infraestructura sin tiempo de inactividad. 
-                            Fuera del código, me encontrarás en el <em>ciclismo de montaña</em>.
+                            Soy <strong>Ingeniero de Software</strong> con más de <strong>10 años</strong> construyendo y manteniendo
+                            sistemas utilizados en operaciones reales de <em>logística, educación e instituciones académicas</em>.
                         </p>
 
-                        <ul class="wow fadeInUp" data-wow-delay="0.75s" role="list" aria-label="Características del servicio">
-                            <li>+40% de mejora en tiempos de respuesta en proyectos reales</li>
-                            <li>Plataformas logísticas, SaaS y ERPs con IA integrada</li>
-                            <li>Infraestructura Linux: del servidor a producción sin intermediarios</li>
-                            <li>+6 sistemas internos desarrollados y mantenidos en El Colegio de San Luis</li>
-                            <li>Hardening de servidores y cultura DevOps (Docker, CI/CD, Git Actions)</li>
-                            <li>Soporte real y comunicación directa en cada proyecto</li>
-                        </ul>
+                        <div class="row about-stats wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="col-6 col-md-3">
+                                <div class="counter-box">
+                                    <h3><span class="counter">10</span>+</h3>
+                                    <p>Años construyendo software</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="counter-box">
+                                    <h3>+<span class="counter">40</span>%</h3>
+                                    <p>Mejora en tiempos de respuesta</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="counter-box">
+                                    <h3><span class="counter">16</span>+</h3>
+                                    <p>Sistemas internos desarrollados y mantenidos</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3">
+                                <div class="counter-box">
+                                    <h3 style="font-size:22px;">3PL / ERP / SaaS</h3>
+                                    <p>Experiencia en sistemas empresariales</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="wow fadeIn">
+                            No me limito a desarrollar aplicaciones. También entiendo servidores, bases de datos,
+                            integraciones y despliegues. Esto me permite trabajar con la solución completa,
+                            desde el proceso hasta producción.
+                        </p>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">
+                            He liderado proyectos como sistemas CRM logísticos completos, plataformas SaaS multi-tenant
+                            y migraciones de infraestructura sin tiempo de inactividad.
+                            Fuera del código, me encontrarás en el <em>ciclismo de montaña</em>.
+                        </p>
                     </div>
                     <!-- About Us Content End -->
                 </div>

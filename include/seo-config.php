@@ -4,16 +4,16 @@ class SEOConfig {
     private $seoData = [
         'home' => [
             'title' => 'AlanKalepDev | Desarrollo de Software, Asistentes IA e Infraestructura en San Luis Potosí',
-            'description' => 'Ingeniero de Software Full Stack con +10 años de experiencia. Desarrollo aplicaciones web, SaaS, ERP, asistentes con IA para WhatsApp y Telegram, e infraestructura on-premise sin la nube. San Luis Potosí, México.',
-            'keywords' => 'desarrollo web, aplicaciones web, SaaS, ERP, inteligencia artificial, asistentes IA WhatsApp, asistentes IA Telegram, infraestructura on-premise, Docker, Laravel, Python, programación, San Luis Potosí, México, desarrollador full stack, software a medida',
+            'description' => 'Transformo procesos de empresas con software, automatización e IA. Desarrollo aplicaciones a medida, integro sistemas (ERP, CRM, facturación), asistentes con IA y administro infraestructura on-premise. San Luis Potosí, México.',
+            'keywords' => 'automatización de procesos, integración de sistemas, desarrollo web, aplicaciones web, SaaS, ERP, inteligencia artificial, asistentes IA WhatsApp, asistentes IA Telegram, infraestructura on-premise, Docker, Laravel, Python, programación, San Luis Potosí, México, desarrollador full stack, software a medida',
             'canonical' => 'https://www.alankalepdev.com/',
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/og-home.png'
         ],
         'services' => [
-            'title' => 'Servicios: Desarrollo Web, Asistentes IA, Infraestructura On-Premise | AlanKalepDev',
-            'description' => 'Desarrollo de software a medida, aplicaciones SaaS, ERP, asistentes con IA para WhatsApp y Telegram, diseño web profesional, infraestructura on-premise con Docker y ciberseguridad. San Luis Potosí.',
-            'keywords' => 'servicios desarrollo software, aplicaciones SaaS, sistemas ERP, asistentes IA empresas, asistentes RAG documentos empresa, asistentes WhatsApp Telegram, infraestructura on-premise Docker, self-hosted SaaS n8n Nextcloud, auditoría servidores Linux, diseño web, ciberseguridad, San Luis Potosí',
+            'title' => 'Soluciones: Software Empresarial, Automatización e IA, Integración de Sistemas | AlanKalepDev',
+            'description' => 'Software empresarial a medida, automatización de procesos con IA, integración de ERP/CRM/facturación/bancos e infraestructura on-premise. Soluciones digitales para transformar la operación de tu empresa. San Luis Potosí.',
+            'keywords' => 'soluciones digitales empresa, software empresarial a medida, automatización de procesos con IA, integración de sistemas ERP CRM, asistentes RAG documentos empresa, asistentes WhatsApp Telegram, infraestructura on-premise Docker, hardening servidores Linux, transformación digital PyMEs, San Luis Potosí',
             'canonical' => 'https://www.alankalepdev.com/services',
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/og-services.png'
@@ -27,16 +27,16 @@ class SEOConfig {
             'og_image' => 'https://www.alankalepdev.com/assets/images/service-img-4-1.png'
         ],
         'service-software' => [
-            'title' => 'Desarrollo de Software a Medida — Aplicaciones Web, SaaS y ERP | AlanKalepDev',
-            'description' => 'Desarrollo aplicaciones web, plataformas SaaS multi-tenant y sistemas ERP personalizados con Laravel, Python y FastAPI. Software a medida para tu negocio en San Luis Potosí, México.',
-            'keywords' => 'desarrollo software a medida, aplicaciones web personalizadas, SaaS multi-tenant, sistemas ERP, Laravel, Python, FastAPI, software empresarial San Luis Potosí',
+            'title' => 'Software Empresarial a Medida — Aplicaciones Web, SaaS y ERP | AlanKalepDev',
+            'description' => 'Desarrollo software empresarial a medida: aplicaciones web, sistemas internos, plataformas SaaS multi-tenant y ERP personalizados con Laravel, Python y FastAPI. San Luis Potosí, México.',
+            'keywords' => 'software empresarial a medida, desarrollo de sistemas internos, aplicaciones web personalizadas, SaaS multi-tenant, sistemas ERP, CRM a medida, Laravel, Python, FastAPI, San Luis Potosí',
             'canonical' => 'https://www.alankalepdev.com/?route=service-software',
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/service-img-1-1.png'
         ],
         'blog' => [            'title' => 'Blog — Desarrollo Web, IA, DevOps y Open Source | AlanKalepDev',
             'description' => 'Artículos prácticos sobre desarrollo web, inteligencia artificial aplicada a empresas, DevOps, infraestructura Linux, Docker y tecnologías Open Source.',
-            'keywords' => 'blog desarrollo web, inteligencia artificial empresas, DevOps Linux, Docker, Open Source, Laravel, Python, asistentes IA, tendencias tecnológicas 2025',
+            'keywords' => 'blog desarrollo web, inteligencia artificial empresas, DevOps Linux, Docker, Open Source, Laravel, Python, asistentes IA, tendencias tecnológicas 2026',
             'canonical' => 'https://www.alankalepdev.com/blog',
             'og_type' => 'website',
             'og_image' => 'https://www.alankalepdev.com/assets/images/og-blog.png'
@@ -53,8 +53,8 @@ class SEOConfig {
             "@type" => "Person",
             "name" => "Alan Gutiérrez",
             "alternateName" => "Alan Kalep",
-            "jobTitle" => "Ingeniero de Software Full Stack",
-            "description" => "Ingeniero en Sistemas Computacionales con +10 años de experiencia en desarrollo web, administración Linux, asistentes con IA y DevOps. Especialista en Laravel, Python, Docker e infraestructura on-premise.",
+            "jobTitle" => "Ingeniero de Software",
+            "description" => "Ingeniero de Software con +10 años de experiencia transformando procesos de empresas con software a medida, automatización, IA e infraestructura propia. Especialista en Laravel, Python, Docker e integración de sistemas (ERP, CRM, facturación).",
             "url" => "https://www.alankalepdev.com",
             "image" => "https://www.alankalepdev.com/assets/images/page-about-3.jpeg",
             "sameAs" => [
@@ -72,6 +72,9 @@ class SEOConfig {
             ],
             "knowsAbout" => [
                 "Desarrollo Web",
+                "Software Empresarial a Medida",
+                "Automatización de Procesos",
+                "Integración de Sistemas (ERP, CRM, Facturación)",
                 "Aplicaciones SaaS",
                 "Sistemas ERP",
                 "Inteligencia Artificial",
@@ -103,11 +106,10 @@ class SEOConfig {
                 ["@type" => "Country", "name" => "México"]
             ];
             $baseStructuredData["serviceType"] = [
-                "Desarrollo de Software",
-                "Asistentes con IA",
-                "Infraestructura On-Premise",
-                "Diseño Web",
-                "DevOps"
+                "Desarrollo de Software a Medida",
+                "Automatización e IA",
+                "Integración de Sistemas",
+                "Infraestructura y Seguridad"
             ];
             $baseStructuredData["potentialAction"] = [
                 "@type" => "SearchAction",
@@ -117,7 +119,7 @@ class SEOConfig {
             // Speakable para búsquedas por voz e IA
             $baseStructuredData["speakable"] = [
                 "@type" => "SpeakableSpecification",
-                "cssSelector" => [".hero-content", ".about-content", ".service-item"]
+                "cssSelector" => [".hero-content", ".about-content", ".service-item", ".why-choose-us-item", ".works-content"]
             ];
         }
 
@@ -220,13 +222,104 @@ class SEOConfig {
             return json_encode([$baseStructuredData, $serviceSchema, $faqSchema], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
         }
 
+        if ($page === 'service-software') {
+            // Schema Service específico para Software Empresarial a Medida
+            $serviceSchema = [
+                "@context" => "https://schema.org",
+                "@type" => "Service",
+                "name" => "Software Empresarial a Medida",
+                "alternateName" => "Desarrollo de software a medida para empresas",
+                "description" => "Desarrollo de aplicaciones web, sistemas internos, CRM y ERP a medida, diseñados alrededor de los procesos reales de la empresa. Integración con sistemas existentes. Con Laravel, Python y FastAPI.",
+                "url" => "https://www.alankalepdev.com/?route=service-software",
+                "image" => "https://www.alankalepdev.com/assets/images/service-img-1-1.png",
+                "provider" => [
+                    "@type" => "Person",
+                    "name" => "Alan Gutiérrez",
+                    "url" => "https://www.alankalepdev.com"
+                ],
+                "areaServed" => [
+                    ["@type" => "Country", "name" => "México"],
+                    ["@type" => "Country", "name" => "Latinoamérica"]
+                ],
+                "serviceType" => "Desarrollo de Software Empresarial",
+                "category" => "Software Development",
+                "offers" => [
+                    "@type" => "Offer",
+                    "priceCurrency" => "MXN",
+                    "availability" => "https://schema.org/InStock",
+                    "url" => "https://www.alankalepdev.com/#contact"
+                ],
+                "hasOfferCatalog" => [
+                    "@type" => "OfferCatalog",
+                    "name" => "Componentes del servicio de software a medida",
+                    "itemListElement" => [
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Análisis de proceso y requerimientos"]],
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Diseño de arquitectura y base de datos"]],
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Desarrollo con Laravel, Python o FastAPI"]],
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Integración con ERP, CRM y facturación"]],
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Despliegue en servidor propio o en la nube"]],
+                        ["@type" => "Offer", "itemOffered" => ["@type" => "Service", "name" => "Documentación y capacitación"]]
+                    ]
+                ]
+            ];
+
+            $faqSchema = [
+                "@context" => "https://schema.org",
+                "@type" => "FAQPage",
+                "mainEntity" => [
+                    [
+                        "@type" => "Question",
+                        "name" => "¿Cuánto tiempo toma desarrollar un sistema a medida?",
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => "Depende del alcance. Un sistema básico, con un módulo y pocos usuarios, puede estar listo en 4 a 6 semanas. Un ERP o plataforma con varios módulos e integraciones puede tomar de 2 a 4 meses. Siempre empezamos con un diagnóstico que da un rango de tiempo real antes de comenzar."
+                        ]
+                    ],
+                    [
+                        "@type" => "Question",
+                        "name" => "¿Qué pasa si mis requerimientos cambian a mitad del proyecto?",
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => "Es normal. El desarrollo se hace con entregas incrementales, no con un solo entregable al final, lo que permite ajustar el rumbo del proyecto conforme se valida cada parte."
+                        ]
+                    ],
+                    [
+                        "@type" => "Question",
+                        "name" => "¿El sistema se integra con mi ERP, CRM o facturación actual?",
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => "Sí. Gran parte del trabajo consiste en conectar sistemas que hoy no se comunican entre sí, vía API, base de datos o archivos EDI, según la tecnología existente."
+                        ]
+                    ],
+                    [
+                        "@type" => "Question",
+                        "name" => "¿Quién es dueño del código al terminar el proyecto?",
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => "El cliente. Se entrega el código fuente completo, con documentación, sin dependencias de licencias que lo aten a un único proveedor."
+                        ]
+                    ],
+                    [
+                        "@type" => "Question",
+                        "name" => "¿Dan soporte después de entregar el sistema?",
+                        "acceptedAnswer" => [
+                            "@type" => "Answer",
+                            "text" => "Sí. Se ofrece soporte y evolución continua: corrección de errores, nuevas funciones y mantenimiento de la infraestructura conforme crece la empresa."
+                        ]
+                    ]
+                ]
+            ];
+
+            return json_encode([$baseStructuredData, $serviceSchema, $faqSchema], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+        }
+
         if ($page === 'services') {
-            // Schema ItemList con todos los servicios
+            // Schema ItemList con las 4 soluciones principales
             $servicesListSchema = [
                 "@context" => "https://schema.org",
                 "@type" => "ItemList",
-                "name" => "Servicios de Desarrollo de Software — AlanKalepDev",
-                "description" => "Listado de servicios profesionales de desarrollo de software, IA e infraestructura",
+                "name" => "Soluciones de Software, Automatización e IA — AlanKalepDev",
+                "description" => "Software empresarial, automatización e IA, integración de sistemas e infraestructura para transformar la operación de tu empresa",
                 "url" => "https://www.alankalepdev.com/services",
                 "itemListElement" => [
                     [
@@ -234,9 +327,9 @@ class SEOConfig {
                         "position" => 1,
                         "item" => [
                             "@type" => "Service",
-                            "name" => "Asistente RAG con IA para Empresas",
-                            "description" => "Chatbots inteligentes con tus documentos propios. WhatsApp, Telegram, web. On-premise.",
-                            "url" => "https://www.alankalepdev.com/?route=service-rag"
+                            "name" => "Software Empresarial a Medida",
+                            "description" => "Aplicaciones web, sistemas internos, CRM, ERP y plataformas hechas alrededor de tus procesos.",
+                            "url" => "https://www.alankalepdev.com/?route=service-software"
                         ]
                     ],
                     [
@@ -244,9 +337,9 @@ class SEOConfig {
                         "position" => 2,
                         "item" => [
                             "@type" => "Service",
-                            "name" => "Desarrollo de Software a Medida",
-                            "description" => "Aplicaciones web, SaaS multi-tenant y sistemas ERP personalizados con Laravel y Python.",
-                            "url" => "https://www.alankalepdev.com/services"
+                            "name" => "Automatización e IA",
+                            "description" => "Automatización de procesos, asistentes con IA (RAG), agentes y procesamiento inteligente de documentos.",
+                            "url" => "https://www.alankalepdev.com/?route=service-rag"
                         ]
                     ],
                     [
@@ -254,8 +347,8 @@ class SEOConfig {
                         "position" => 3,
                         "item" => [
                             "@type" => "Service",
-                            "name" => "Infraestructura On-Premise con Docker",
-                            "description" => "Servidores propios con Docker, Nginx y Cloudflare Tunnel. Alternativa a la nube pública.",
+                            "name" => "Integración de Sistemas",
+                            "description" => "Conectamos ERP, CRM, facturación, bancos, APIs y WhatsApp para que la información fluya automáticamente.",
                             "url" => "https://www.alankalepdev.com/services"
                         ]
                     ],
@@ -264,8 +357,8 @@ class SEOConfig {
                         "position" => 4,
                         "item" => [
                             "@type" => "Service",
-                            "name" => "Diseño y Desarrollo Web",
-                            "description" => "Sitios web profesionales con enfoque en SEO, conversión y rendimiento.",
+                            "name" => "Infraestructura y Seguridad",
+                            "description" => "Servidores propios con Docker y Linux, hardening, backups y despliegues. Alternativa a la nube pública.",
                             "url" => "https://www.alankalepdev.com/services"
                         ]
                     ]

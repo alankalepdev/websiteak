@@ -2,7 +2,7 @@
 class BreadcrumbGenerator {
     private $pages = [
         'home' => 'Inicio',
-        'services' => 'Servicios',
+        'services' => 'Soluciones',
         'blog' => 'Blog'
     ];
 

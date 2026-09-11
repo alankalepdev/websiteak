@@ -7,8 +7,8 @@
                 <div class="contact-details">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">Contactanos</h3>
-                        <h2 class="text-anime-style-3">Ponte en contacto conmigo hoy</h2>
+                        <h3 class="wow fadeInUp">Contáctanos</h3>
+                        <h2 class="text-anime-style-3">Solicita tu diagnóstico inicial</h2>
                     </div>
                     <!-- Section Title End -->
 

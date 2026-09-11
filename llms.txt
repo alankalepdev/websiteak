@@ -1,46 +1,44 @@
 # AlanKalepDev — Alan Gutiérrez
 
-> Ingeniero de Software Full Stack con +10 años de experiencia. Especialista en desarrollo web, asistentes con inteligencia artificial (RAG), infraestructura on-premise y DevOps. Basado en San Luis Potosí, México.
+> Transformo procesos de empresas con software, automatización e inteligencia artificial. Ingeniero de Software con +10 años de experiencia construyendo y manteniendo sistemas usados en operaciones reales. Basado en San Luis Potosí, México.
 
-## Quién soy
+## Qué hago
 
-Soy Alan Gutiérrez, conocido profesionalmente como Alan Kalep. Soy Ingeniero en Sistemas Computacionales con más de 10 años construyendo software a medida para empresas en México y Latinoamérica. He reducido tiempos de respuesta operativa hasta un 40% en proyectos reales.
+Identifico procesos manuales, sistemas desconectados y tareas repetitivas dentro de una empresa, y los convierto en soluciones digitales que ahorran tiempo, reducen errores y ayudan a esa empresa a crecer. No solo desarrollo software: entiendo servidores, bases de datos, integraciones y despliegues, así que puedo entregar la solución completa, desde el diagnóstico hasta producción.
 
-Mis especialidades incluyen:
-- Desarrollo de aplicaciones web (SaaS, ERP, portales empresariales)
-- Asistentes con Inteligencia Artificial (RAG, LLM, WhatsApp, Telegram)
-- Infraestructura on-premise con Docker y Cloudflare Tunnel
-- Administración de servidores Linux
-- DevOps y CI/CD
-- Ciberseguridad básica para empresas
+Soy Alan Gutiérrez, conocido profesionalmente como Alan Kalep. Ingeniero en Sistemas Computacionales con más de 10 años de experiencia. He reducido tiempos de respuesta operativa hasta un 40% en proyectos reales y desarrollado y mantenido más de 6 sistemas internos en producción, con experiencia en logística (3PL), ERP y plataformas SaaS.
 
-## Servicios principales
+## Cómo trabajo
 
-### Asistente RAG con IA para Empresas
-Implemento asistentes inteligentes que responden usando los documentos, manuales, bases de datos y conocimiento interno de tu empresa. Tecnología RAG (Retrieval-Augmented Generation) conectada a modelos de lenguaje (LLM) como LLaMA, Mistral o GPT. Disponible en WhatsApp, Telegram o web. Los datos nunca salen de tu servidor.
+1. **Diagnóstico** — Analizo el proceso actual del cliente y detecto dónde está perdiendo tiempo o control.
+2. **Propuesta de solución** — Diseño la solución técnica adecuada: software, automatización, IA o infraestructura.
+3. **Implementación** — Construyo y despliego la solución directamente en producción, sin intermediarios.
+4. **Soporte y evolución** — Doy seguimiento, mido resultados y evoluciono la solución conforme crece la empresa.
 
+## Soluciones principales
+
+### 1. Software empresarial a medida
+Aplicaciones web, sistemas internos, CRM, ERP, plataformas y herramientas construidas alrededor de los procesos reales del cliente. Stack principal: Laravel, PHP, Python, FastAPI, JavaScript.
+**Más información:** https://www.alankalepdev.com/?route=service-software
+
+### 2. Automatización e IA
+Automatización de procesos, asistentes internos con IA, agentes y procesamiento inteligente de documentos. Incluye asistentes RAG (Retrieval-Augmented Generation) conectados a los documentos, manuales y bases de datos de la empresa — responden con información real y verificable, no genérica. Disponibles en WhatsApp, Telegram o web; los datos nunca salen del servidor del cliente.
 **Casos de uso:** logística, RRHH, ventas, soporte técnico, contratos.
 **Más información:** https://www.alankalepdev.com/?route=service-rag
 
-### Desarrollo de Software a Medida
-Aplicaciones web, plataformas SaaS multi-tenant, sistemas ERP personalizados. Stack principal: Laravel, PHP, Python, FastAPI, JavaScript.
+### 3. Integración de sistemas
+Conexión entre ERP, CRM, facturación, bancos, APIs, WhatsApp y sistemas internos que hoy no comparten información entre sí, para que los datos fluyan automáticamente entre plataformas (incluye integraciones EDI para logística/3PL).
 
-### Infraestructura On-Premise
-Servidores propios con Docker, Nginx, Cloudflare Tunnel. Alternativa real a la nube pública. Self-hosted: n8n, Nextcloud, Gitea, Mattermost.
+### 4. Infraestructura y seguridad
+Servidores propios con Linux y Docker, alternativa real a la nube pública, hardening de servidores, backups y despliegues. Self-hosted: n8n, Nextcloud, Gitea, Mattermost, expuestos de forma segura con Cloudflare Tunnel.
 
-### Diseño y Desarrollo Web
-Sitios web profesionales y rápidos con enfoque en SEO, conversión y rendimiento.
+## Casos reales (con problema, solución y resultado)
 
-### DevOps y Administración Linux
-Gestión de servidores Linux (Debian/Ubuntu), pipelines CI/CD, monitoreo y hardening de seguridad.
-
-## Proyectos destacados
-
-- **ERP Logístico:** Sistema integral para empresa de transporte. Gestión de operadores, unidades, rutas y reportes.
-- **Plataforma SaaS multi-tenant:** Plataforma con facturación recurrente y paneles por cliente.
-- **Asistente IA para WhatsApp:** Bot RAG con documentos internos de empresa logística.
-- **Migración OJS:** Migración y modernización de sistemas de publicación académica.
-- **Servidor on-premise con Docker:** Infraestructura completa con Cloudflare Tunnel, sin IP pública.
+- **ERP a medida — Grupo MOC:** operación dispersa en herramientas genéricas → ERP a medida → información centralizada y procesos más rápidos. https://app.grupomoc.com.mx/
+- **Sistema de gestión de proveedores:** gestión de proveedores dispersa en correos y hojas de cálculo → plataforma web centralizada → menos trabajo manual y mayor trazabilidad.
+- **Integración EDI — Logística 3PL:** intercambio manual de información con almacén 3PL → flujos EDI estándar (943, 944, 940, 945, 997) → intercambio automático con menos errores.
+- **Servidor On-Premise + Cloudflare Tunnel:** dependencia de la nube pública → servidor local con Docker expuesto vía Cloudflare Tunnel → control total sin IP fija ni costos recurrentes de hosting.
+- **Migración OJS — Revista académica:** plataforma de publicación desactualizada → migración completa de OJS 3.3 a 3.4 → plataforma segura sin pérdida de datos.
 
 ## Tecnologías
 
@@ -57,8 +55,9 @@ PHP, Laravel, Python, FastAPI, JavaScript, Vue.js, Docker, Nginx, MySQL, Postgre
 
 ## Páginas del sitio
 
-- Inicio (incluye Sobre mí, Portafolio y Contacto): https://www.alankalepdev.com/
-- Servicios: https://www.alankalepdev.com/services
-- Asistente RAG con IA: https://www.alankalepdev.com/?route=service-rag
-- Desarrollo de Software a Medida: https://www.alankalepdev.com/?route=service-software
-- Blog: https://www.alankalepdev.com/blog
+- Inicio (incluye problemas que resuelvo, soluciones, casos reales, cómo trabajo y sobre mí): https://www.alankalepdev.com/
+- Soluciones (listado completo): https://www.alankalepdev.com/services
+- Software empresarial a medida: https://www.alankalepdev.com/?route=service-software
+- Automatización e IA (Asistente RAG): https://www.alankalepdev.com/?route=service-rag
+- Sede Digital (producto): https://www.alankalepdev.com/sededigital
+- Blog / Recursos: https://www.alankalepdev.com/blog

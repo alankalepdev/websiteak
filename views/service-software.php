@@ -5,12 +5,12 @@
                 <div class="col-lg-12">
                     <!-- Page Header Box Start -->
                     <div class="page-header-box">
-                        <h1 class="text-anime-style-3">Web Development</h1>
+                        <h1 class="text-anime-style-3">Software Empresarial a Medida</h1>
                         <nav class="wow fadeInUp" data-wow-delay="0.25s">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">home</a></li>
-                                <li class="breadcrumb-item"><a href="#">services</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Web Development</li>
+                                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                                <li class="breadcrumb-item"><a href="/#services">Soluciones</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Software Empresarial a Medida</li>
                             </ol>
                         </nav>
                     </div>
@@ -31,16 +31,42 @@
                         <!-- Service Featured Image Start -->
                         <div class="service-featured-image">
                             <figure class="image-anime reveal">
-                                <img src="images/service-feature-img.jpg" alt="">
+                                <img src="assets/images/service-img-1-1.png" alt="Software empresarial a medida — aplicaciones web, sistemas internos y ERP">
                             </figure>
                         </div>
                         <!-- Service Featured Image End -->
 
                         <!-- Service Entry Content Start -->
                         <div class="service-entry">
-                            <p class="wow fadeInUp" data-wow-delay="0.25s">Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur adipis icing elit.</p>
-                            <p class="wow fadeInUp" data-wow-delay="0.75s">Aelltes port lacus quis enim var sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.</p>
+                            <h2 class="wow fadeInUp">¿Qué es el software empresarial a medida?</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">
+                                El software genérico obliga a tu empresa a adaptarse a sus reglas: hojas de cálculo que no hablan entre sí,
+                                sistemas prearmados con módulos que no usas y otros que te faltan. El <strong>software a medida</strong> se
+                                construye alrededor de <strong>tus procesos reales</strong> — no al revés — para automatizar tareas manuales,
+                                centralizar información y darte control total sobre tus datos.
+                            </p>
+                            <p class="wow fadeInUp" data-wow-delay="0.5s">
+                                Imagina un sistema donde tu equipo registra pedidos, tu almacén consulta inventario en tiempo real
+                                y tu área administrativa genera reportes sin copiar datos entre hojas de cálculo — todo desde
+                                <strong>una sola plataforma diseñada para tu operación</strong>, no adaptada a una plantilla.
+                            </p>
+
+                            <h2 class="wow fadeInUp">¿Cómo lo implementamos?</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.25s">
+                                Empezamos por entender tu proceso actual: qué datos manejas, qué sistemas ya usas (ERP, CRM, facturación)
+                                y dónde se pierde tiempo. Con eso diseñamos la arquitectura del sistema y lo construimos con
+                                <strong>Laravel, Python o FastAPI</strong> según el caso. Todo se despliega en tu infraestructura o en la
+                                nube, con control de versiones y despliegues continuos — sin dependencias ocultas ni código que solo
+                                yo entiendo.
+                            </p>
+
+                            <h2 class="wow fadeInUp">Casos de uso reales</h2>
+                            <ul class="wow fadeInUp" data-wow-delay="0.25s">
+                                <li><strong>Logística y 3PL:</strong> sistemas de gestión de operadores, unidades y rutas, con integración EDI hacia almacenes y clientes.</li>
+                                <li><strong>Instituciones educativas:</strong> portales internos, gestión de proveedores y plataformas de cursos con pasarela de pago.</li>
+                                <li><strong>ERP a medida:</strong> control de inventario, ventas y operación centralizados en una sola plataforma.</li>
+                                <li><strong>Migraciones y modernización:</strong> actualización de sistemas legacy sin perder datos ni tiempo de operación.</li>
+                            </ul>
                         </div>
                         <!-- Service Entry Content End -->
                     </div>
@@ -52,20 +78,42 @@
                         <!-- Service List Box Start -->
                         <div class="services-list-box wow fadeInUp" data-wow-delay="0.5s">
                             <div class="icon-box">
-                                <img src="images/icon-service-list.svg" alt="">
+                                <img src="assets/images/icon-service-list.svg" alt="">
                             </div>
-                            <h3>website development</h3>
+                            <h3>¿Qué incluye?</h3>
                             <ul>
-                                <li><a href="#">WordPress Support & Maintenance</a></li>
-                                <li><a href="#">1,000+ Completed Projects</a></li>
-                                <li><a href="#">Content Migration</a></li>
-                                <li><a href="#">Plugin Installation and Customization</a></li>
-                                <li><a href="#">Fast Load Time</a></li>
-                                <li><a href="#">Easy Back-End Admin Panel</a></li>
+                                <li>Análisis de tu proceso actual y requerimientos</li>
+                                <li>Diseño de arquitectura y base de datos</li>
+                                <li>Desarrollo con Laravel, Python o FastAPI</li>
+                                <li>Integración con tus sistemas actuales (ERP, CRM, facturación)</li>
+                                <li>Despliegue en tu servidor o en la nube</li>
+                                <li>Documentación y capacitación de tu equipo</li>
                             </ul>
-                            <a href="#" class="btn-default">contact now</a>
+                            <a href="https://wa.me/5214401406320/?text=Hola, me interesa el servicio de Software Empresarial a Medida para mi empresa"
+                               target="_blank"
+                               class="btn-default">Solicitar información</a>
                         </div>
                         <!-- Service List Box End -->
+
+                        <!-- Contact Box -->
+                        <div class="ask-question wow fadeInUp" data-wow-delay="0.75s" style="margin-top: 30px;">
+                            <div class="ask-question-content">
+                                <h3>¿Tienes dudas?</h3>
+                                <p>Cuéntame tu caso y te digo si necesitas un sistema a medida o si hay una solución más simple para tu empresa.</p>
+                            </div>
+                            <div class="ask-contact-list">
+                                <div class="icon-box">
+                                    <img src="assets/images/icon-phone.svg" alt="">
+                                </div>
+                                <a href="tel:+524441240916"><span>Teléfono:</span> 444-124-0916</a>
+                            </div>
+                            <div class="ask-contact-list">
+                                <div class="icon-box">
+                                    <img src="assets/images/icon-mail.svg" alt="">
+                                </div>
+                                <a href="mailto:contacto@alankalepdev.com"><span>Email:</span> contacto@alankalepdev.com</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,9 +128,12 @@
                 <div class="col-lg-10 col-md-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">why i circle</h3>
-                        <h2 class="text-anime-style-3">Why website design from i circle</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged Lorem ipsum dolor sit amet consec tetur.</p>
+                        <h3 class="wow fadeInUp">Ventajas</h3>
+                        <h2 class="text-anime-style-3">¿Por qué un sistema a medida y no una plantilla genérica?</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">
+                            Un software genérico te obliga a adaptar tu operación a sus reglas.
+                            Un sistema a medida se adapta a <strong>cómo trabaja tu empresa</strong>.
+                        </p>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -93,10 +144,10 @@
                     <!-- Why Choose Item Start -->
                     <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="icon-box">
-                            <img src="images/icon-whyus-1.svg" alt="">
+                            <img src="assets/images/icon-whyus-1.svg" alt="">
                         </div>
-                        <h3>powerful framework</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <h3>Se adapta a tu proceso</h3>
+                        <p>El sistema se diseña alrededor de cómo opera tu empresa hoy, no de un molde genérico.</p>
                     </div>
                     <!-- Why Choose Item End -->
                 </div>
@@ -105,10 +156,10 @@
                     <!-- Why Choose Item Start -->
                     <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.5s">
                         <div class="icon-box">
-                            <img src="images/icon-whyus-2.svg" alt="">
+                            <img src="assets/images/icon-whyus-2.svg" alt="">
                         </div>
-                        <h3>quality-focused</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <h3>Escala contigo</h3>
+                        <p>Arquitectura pensada para crecer: nuevos módulos, más usuarios, más integraciones, sin reescribir todo.</p>
                     </div>
                     <!-- Why Choose Item End -->
                 </div>
@@ -117,10 +168,10 @@
                     <!-- Why Choose Item Start -->
                     <div class="why-choose-us-item wow fadeInUp" data-wow-delay="0.75s">
                         <div class="icon-box">
-                            <img src="images/icon-whyus-3.svg" alt="">
+                            <img src="assets/images/icon-whyus-3.svg" alt="">
                         </div>
-                        <h3>value for money</h3>
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                        <h3>Tus datos, bajo tu control</h3>
+                        <p>Despliegue en tu servidor o en la nube que elijas — sin depender de un tercero para operar.</p>
                     </div>
                     <!-- Why Choose Item End -->
                 </div>
@@ -129,84 +180,15 @@
     </div>
     <!-- Why Choose Us Section End -->
 
-    <!-- Your Choice Section Start -->
-    <div class="your-choice">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-7 col-md-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">your choice</h3>
-                        <h2 class="text-anime-style-3">Select engagement models of your choice</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="your-choice-item wow fadeInUp" data-wow-delay="0.25s">
-                        <div class="your-choice-title">
-                            <h2>Fixed Price Model</h2>
-                            <a href="#"><img src="images/icon-choice-1.svg" alt=""></a>
-                        </div>
-                        <ul>
-                            <li><a href="#">Fixed time frames</a></li>
-                            <li><a href="#">Well-defined specification</a></li>
-                            <li><a href="#">Low Risk</a></li>
-                            <li><a href="#">Quick start</a></li>
-                            <li><a href="#">Guaranteed results</a></li>
-                            <li><a href="#">Ideal for SMBs and Entrepreneurs</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="your-choice-item wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="your-choice-title">
-                            <h2>Time & Material Model</h2>
-                            <a href="#"><img src="images/icon-choice-2.svg" alt=""></a>
-                        </div>
-                        <ul>
-                            <li><a href="#">Low risk</a></li>
-                            <li><a href="#">High flexibility</a></li>
-                            <li><a href="#">Quick start</a></li>
-                            <li><a href="#">Transparency & collaboration</a></li>
-                            <li><a href="#">Pay only for the work done</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="your-choice-item wow fadeInUp" data-wow-delay="0.75s">
-                        <div class="your-choice-title">
-                            <h2>Dedicated Team Model</h2>
-                            <a href="#"><img src="images/icon-choice-3.svg" alt=""></a>
-                        </div>
-                        <ul>
-                            <li><a href="#">Low Risk</a></li>
-                            <li><a href="#">Highest control</a></li>
-                            <li><a href="#">Highest quality</a></li>
-                            <li><a href="#">Long term commitment</a></li>
-                            <li><a href="#">High level of flexibility</a></li>
-                            <li><a href="#">Expert Developer</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Your Choice Section End -->
-
-    <!-- Our Services Section Start -->
+    <!-- Related Solutions Section Start -->
     <div class="our-services">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-7 col-md-7">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">related services</h3>
-                        <h2 class="text-anime-style-3">Explore our related services</h2>
+                        <h3 class="wow fadeInUp">Otras soluciones</h3>
+                        <h2 class="text-anime-style-3">Explora el resto de soluciones</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -214,7 +196,7 @@
                 <div class="col-lg-5 col-md-5">
                     <!-- Section Btn Start -->
                     <div class="section-btn">
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.25s">view all services</a>
+                        <a href="services" class="btn-default wow fadeInUp" data-wow-delay="0.25s">Ver todas las soluciones</a>
                     </div>
                     <!-- Section Btn End -->
                 </div>
@@ -226,14 +208,14 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.25s">
                         <div class="service-content">
                             <div class="service-content-title">
-                                <h2>web development</h2>
-                                <a href="#"><img src="images/arrow.svg" alt=""></a>
+                                <h2>Automatización e IA</h2>
+                                <a href="?route=service-rag"><img src="assets/images/arrow.svg" alt="Automatización de procesos y asistentes con IA"></a>
                             </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                            <p>Automatización de procesos, asistentes internos y procesamiento inteligente de documentos con IA.</p>
                         </div>
                         <div class="service-image">
                             <figure class="image-anime">
-                                <img src="images/service-img-1.jpg" alt="">
+                                <img src="assets/images/service-img-4-1.png" alt="Automatización e inteligencia artificial para empresas">
                             </figure>
                         </div>
                     </div>
@@ -245,14 +227,14 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-content">
                             <div class="service-content-title">
-                                <h2>Digital Marketing</h2>
-                                <a href="#"><img src="images/arrow.svg" alt=""></a>
+                                <h2>Integración de sistemas</h2>
+                                <a href="#contact"><img src="assets/images/arrow.svg" alt="Integración de ERP, CRM, facturación, bancos y APIs"></a>
                             </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                            <p>Conectamos ERP, CRM, facturación, bancos y APIs para que la información fluya automáticamente.</p>
                         </div>
                         <div class="service-image">
                             <figure class="image-anime">
-                                <img src="images/service-img-2.jpg" alt="">
+                                <img src="assets/images/service-img-3-1.png" alt="Integración de sistemas empresariales">
                             </figure>
                         </div>
                     </div>
@@ -264,14 +246,14 @@
                     <div class="service-item wow fadeInUp" data-wow-delay="0.75s">
                         <div class="service-content">
                             <div class="service-content-title">
-                                <h2>Game Development</h2>
-                                <a href="#"><img src="images/arrow.svg" alt=""></a>
+                                <h2>Infraestructura y seguridad</h2>
+                                <a href="#contact"><img src="assets/images/arrow.svg" alt="Infraestructura y seguridad de servidores"></a>
                             </div>
-                            <p>totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae.</p>
+                            <p>Servidores propios, hardening y despliegues — alternativa real a la nube pública.</p>
                         </div>
                         <div class="service-image">
                             <figure class="image-anime">
-                                <img src="images/service-img-3.jpg" alt="">
+                                <img src="assets/images/service-img-10-1.png" alt="Infraestructura y seguridad de servidores Linux">
                             </figure>
                         </div>
                     </div>
@@ -280,7 +262,7 @@
             </div>
         </div>
     </div>
-    <!-- Our Services Section End -->
+    <!-- Related Solutions Section End -->
 
     <!-- FAQs Page Start -->
     <div class="service-faqs">
@@ -289,8 +271,8 @@
                 <div class="col-lg-12">
                     <!-- Section Title Start -->
                     <div class="section-title">
-                        <h3 class="wow fadeInUp">FAQ's</h3>
-                        <h2 class="text-anime-style-3">Frequently asked question</h2>
+                        <h3 class="wow fadeInUp">Preguntas frecuentes</h3>
+                        <h2 class="text-anime-style-3">Lo que más nos preguntan sobre software a medida</h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -304,13 +286,13 @@
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    What is the Difference Between Frontend and Backend Development?
+                                    ¿Cuánto tiempo toma desarrollar un sistema a medida?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Frontend development focuses on creating the user interface and user experience of a software application, typically using languages such as HTML, CSS, and JavaScript. Backend development involves working on the server-side of the application, managing databases, and handling server logic using languages like Python, Java, PHP, or Node.js.</p>
+                                    <p>Depende del alcance. Un sistema básico, con un módulo y pocos usuarios, puede estar listo en 4 a 6 semanas. Un ERP o plataforma con varios módulos e integraciones puede tomar de 2 a 4 meses. Siempre empezamos con un diagnóstico que te da un rango de tiempo real antes de comenzar.</p>
                                 </div>
                             </div>
                         </div>
@@ -321,13 +303,13 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    What are APIs and How are They Used in Software Development?
+                                    ¿Qué pasa si mis requerimientos cambian a mitad del proyecto?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>APIs (Application Programming Interfaces) are sets of rules and protocols that allow different software applications to communicate with each other. They are used in software development to enable integration between different systems, access external services, and build modular and scalable applications.</p>
+                                    <p>Es normal — trabajo con entregas incrementales, no con un solo entregable al final. Eso permite ajustar el rumbo del proyecto conforme validas cada parte, en vez de descubrir el desajuste hasta el final.</p>
                                 </div>
                             </div>
                         </div>
@@ -338,13 +320,13 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    How Can I Improve my Software Development Skills?
+                                    ¿El sistema se integra con mi ERP, CRM o facturación actual?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    <p>Sí. Gran parte de mi trabajo es justamente conectar sistemas que hoy no se hablan entre sí — vía API, base de datos o archivos EDI, según lo que ya tengas.</p>
                                 </div>
                             </div>
                         </div>
@@ -355,13 +337,30 @@
                             <h2 class="accordion-header" id="headingFour">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    What are the Ethical Considerations in AI Development for Software Companies?
+                                    ¿Quién es dueño del código al terminar el proyecto?
                                 </button>
                             </h2>
                             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                                 data-bs-parent="#accordion">
                                 <div class="accordion-body">
-                                    <p>Ethical considerations in AI development for software companies include issues related to fairness, transparency, accountability, privacy, and bias. It's essential for companies to prioritize ethical AI practices AI systems.</p>
+                                    <p>Tú. Entrego el código fuente completo, con documentación, y sin dependencias de licencias que te aten a mí como único proveedor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ Item End -->
+
+                        <!-- FAQ Item Start -->
+                        <div class="accordion-item wow fadeInUp" data-wow-delay="1.25s">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    ¿Dan soporte después de entregar el sistema?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordion">
+                                <div class="accordion-body">
+                                    <p>Sí. Ofrezco soporte y evolución continua — corrección de errores, nuevas funciones y mantenimiento de la infraestructura conforme tu empresa crece.</p>
                                 </div>
                             </div>
                         </div>
@@ -372,21 +371,21 @@
                 <div class="col-lg-4">
                     <div class="ask-question wow fadeInUp" data-wow-delay="0.5s">
                         <div class="ask-question-content">
-                            <h3>You still have a questions</h3>
-                            <p>dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                            <h3>¿Listo para empezar?</h3>
+                            <p>Cuéntame tu proyecto y te preparo una propuesta clara en 24 horas.</p>
                         </div>
                         <div class="ask-contact-list">
                             <div class="icon-box">
-                                <a href="#"><img src="images/icon-phone.svg" alt=""></a>
+                                <img src="assets/images/icon-phone.svg" alt="">
                             </div>
-                            <a href="#"><span>Phone:</span> (+0) 123 456 789</a>
+                            <a href="tel:+524441240916"><span>Teléfono:</span> 444-124-0916</a>
                         </div>
 
                         <div class="ask-contact-list">
                             <div class="icon-box">
-                                <a href="#"><img src="images/icon-mail.svg" alt=""></a>
+                                <img src="assets/images/icon-mail.svg" alt="">
                             </div>
-                            <a href="#"><span>Email:</span> info@domainname.com</a>
+                            <a href="mailto:alan_isgure@hotmail.com"><span>Email:</span> alan_isgure@hotmail.com</a>
                         </div>
                     </div>
                 </div>
@@ -394,3 +393,30 @@
         </div>
     </div>
     <!-- FAQs Page Ends -->
+
+    <!-- CTA Section Start -->
+    <div class="our-services" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%); padding: 80px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp" style="color: #64b5f6;">Empieza hoy</h3>
+                        <h2 class="text-anime-style-3" style="color: #ffffff;">Tu proceso puede ser más simple. Construyamos el sistema que lo resuelve.</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.25s" style="color: #cbd5e1;">
+                            Cuéntame cómo opera tu empresa hoy y te preparo una propuesta en 24 horas.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="https://wa.me/5214401406320/?text=Hola, quiero información sobre Software Empresarial a Medida para mi empresa"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn-default wow fadeInUp"
+                       data-wow-delay="0.5s">
+                       Hablar por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CTA Section End -->

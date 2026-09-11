@@ -8,34 +8,35 @@
                     <div class="hero-content">
                         <!-- Section Title Start -->
                         <div class="section-title">
-                            <h3 class="wow fadeInUp" aria-label="Subtítulo">Ingeniero de Software & Full Stack Developer</h3>
-                            <h1 class="text-anime-style-3" aria-label="Título principal">Software a medida, Asistentes IA y servidores propios para <span>tu empresa</span></h1>
+                            <h3 class="wow fadeInUp" aria-label="Subtítulo">Alan Gutiérrez — Ingeniero de Software</h3>
+                            <h1 class="text-anime-style-3" aria-label="Título principal">Transformo procesos de tu empresa con software e <span>inteligencia artificial</span></h1>
                         </div>
                         <!-- Section Title End -->
 
                         <!-- Hero Body Start -->
                         <div class="hero-body">
                             <p class="wow fadeInUp" data-wow-delay="0.5s">
-                                +10 años construyendo software que realmente funciona en producción. 
-                                He reducido tiempos de respuesta en más del <strong>40%</strong>, liderado migraciones de infraestructura 
-                                complejas y desarrollado plataformas logísticas, SaaS y asistentes con IA para empresas reales. 
-                                Trabajo con Laravel, Python, Vue.js, Docker y Linux — de la idea al servidor, sin intermediarios.
+                                Identifico procesos manuales, sistemas desconectados y tareas repetitivas para convertirlos
+                                en soluciones digitales que ahorran tiempo, reducen errores y ayudan a tu empresa a crecer.
+                            </p>
+                            <p class="hero-tags wow fadeInUp" data-wow-delay="0.6s">
+                                Software a medida &middot; Automatización &middot; IA &middot; Integraciones
                             </p>
                         </div>
                         <!-- Hero Body End -->
 
                         <!-- Hero Footer Start -->
                         <div class="hero-footer">
-                            <a href="https://wa.me/5214401406320/?text=Hola, me podrían dar más información de los servicios" 
-                               target="_blank" 
+                            <a href="https://wa.me/5214401406320/?text=Hola, quiero un diagnóstico inicial para mi empresa"
+                               target="_blank"
                                rel="noopener noreferrer"
-                               class="btn-default wow fadeInUp" 
+                               class="btn-default wow fadeInUp"
                                data-wow-delay="0.75s"
-                               aria-label="Solicitar asesoría gratuita por WhatsApp">Asesoría gratuita</a>
-                            <a href="#portfolio" 
-                               class="btn-default wow fadeInUp" 
+                               aria-label="Solicitar diagnóstico inicial por WhatsApp">Diagnóstico inicial</a>
+                            <a href="#portfolio"
+                               class="btn-default wow fadeInUp"
                                data-wow-delay="0.75s"
-                               aria-label="Ver portafolio de proyectos">Ver portafolio</a>
+                               aria-label="Ver casos reales de proyectos">Ver casos</a>
                         </div>
                         <!-- Hero Footer End -->
                     </div>

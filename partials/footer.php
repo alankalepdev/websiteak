@@ -26,12 +26,13 @@
                                 <h2>Menu</h2>
                                 <ul>
                                     <li><a href="#home">Inicio</a></li>
+                                    <li><a href="#services">Soluciones</a></li>
+                                    <li><a href="#how-we-work">Cómo trabajo</a></li>
+                                    <li><a href="#portfolio">Casos</a></li>
                                     <li><a href="#about">Sobre mí</a></li>
-                                    <li><a href="#services">Servicios</a></li>
-                                    <li><a href="#portfolio">Portafolio</a></li>
                                     <li><a href="sededigital">Sede digital</a></li>
+                                    <li><a href="blog">Recursos</a></li>
                                     <li><a href="#contact">Contacto</a></li>
-                                    <!-- <li><a href="#">Blog</a></li> -->
                                 </ul>
                             </div>
                             <!-- Footer Links End -->
@@ -54,7 +55,7 @@
                         <div class="col-lg-2 col-md-4">
                             <!-- Footer Links Start -->
                             <div class="footer-links">
-                                <h2><a href="#services">Servicios</a></h2>
+                                <h2><a href="#services">Soluciones</a></h2>
                                 <!-- <ul>
                                     <li><a href="#">web development</a></li>
                                     <li><a href="#">digital marketing</a></li>
@@ -75,7 +76,7 @@
                         <div class="col-lg-6">
                             <!-- Footer Copyright Content Start -->
                             <div class="footer-copyright-text">
-                                <p>Copyright © 2025 AlanKalepDev. All rights reserved.</p>
+                                <p>Copyright © 2026 AlanKalepDev. All rights reserved.</p>
                             </div>
                             <!-- Footer Copyright Content End -->
                         </div>
